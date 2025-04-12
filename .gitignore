@@ -1,0 +1,21 @@
+# DuckDB database files
+document.db
+*.db
+*.db.wal
+
+# Data directory
+data/
+!data/.keep
+
+# Environment variables
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db 
